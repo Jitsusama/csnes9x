@@ -1,52 +1,36 @@
- Snes9x Command Line Launcher Version 1.0.2		    	by: Joel Gerber
-__________________________________________________________________________________
+Snes9x Command Line Launcher Version 1.0.2
+==========================================
 
- Introduction:
- 	This is a very simple launcher for snes9x. It simply searches
-	the directory specified by either the SNES96_ROM_DIR environment
-	variable, the option supplied by --d, or the default directory
-	/roms/ and prints out the names of all the roms. It then asks
-	you to chose one of them to play.
-	
-	This program will also accept any of the command line options that
-	snes9x uses and will pass them unto the emulator.
-	
-	Another feature of this program is the ability to tell it what the
-	name of the snes9x executable is. That way you can have it load up
-	gsnes9x for 3Dfx graphics, or ssnes9x for console play. Just change
-	the value of the SNES96_EXEC variable to the executable you wish to
-	use. IE: export SNES96_EXEC=gsnes9x if you are using bash, or setenv
-	SNES96_EXEC gsnes9x for tcsh or other variants. You can also use the
-	--e option to set it to a different value.
-	
-	Also, if you wish for csnes9x to log the snes9x error messages,
-	set SNES96_LOG_FILE or the --l option, to specify what file to
-	log these errors to (it defaults to /dev/null).
-__________________________________________________________________________________
+Introduction
+------------
+This is a very simple launcher for snes9x. It simply searches
+the directory specified by either the SNES96_ROM_DIR environment
+variable, the option supplied by --d, or the default directory
+/roms/ and prints out the names of all the roms. It then asks
+you to chose one of them to play.
 
- Installation:
- 	1. Type make
-	2. Type make install
+This program will also accept any of the command line options that
+snes9x uses and will pass them unto the emulator.
 
-	If there are any errors please send them to joelg@pentaventures.com
-	for analysis.
-__________________________________________________________________________________
+Another feature of this program is the ability to tell it what the
+name of the snes9x executable is. That way you can have it load up
+gsnes9x for 3Dfx graphics, or ssnes9x for console play. Just change
+the value of the SNES96_EXEC variable to the executable you wish to
+use. IE: export SNES96_EXEC=gsnes9x if you are using bash, or setenv
+SNES96_EXEC gsnes9x for tcsh or other variants. You can also use the
+--e option to set it to a different value.
 
- Contact:
- 	You can contact me by e-mail with the following addresses.
-	joelg@pentaventures.com
-	joelgg@onebox.com
+Also, if you wish for csnes9x to log the snes9x error messages,
+set SNES96_LOG_FILE or the --l option, to specify what file to
+log these errors to (it defaults to /dev/null).
 
-	I would appreciate any comments and criticisms or suggestions
-	for improvement.
-__________________________________________________________________________________
+Installation
+------------
+1. make
+2. make install
 
- Notes:
- 	If you appreciate the use of this software I would greatly appreciate
-	it if you would find the nearest Bible and look up the following verses.
-	Romans 3:23, Revelations 21:8, Romans 6:23, John 3:16 and ask yourself
-	if you have ever trusted Jesus Christ as your personal savior, realizing
-	that by your own merit you can never make it to heaven. If you cannot
-	answer yes to this question, then please consider these verses and ask
-	Jesus into your heart.
-___________________________________________________________________________________
+Notes
+-----
+If you appreciate the use of this software I would greatly appreciate
+it if you would find the nearest Bible and look up the following verses;
+Romans 3:23, Revelations 21:8, Romans 6:23, John 3:16.
