@@ -1,0 +1,59 @@
+********************************
+Changes from 0.9.10 -> 0.9.20 /
+*****************************
+
+  + Some new options while program is running.
+    You can find them out by typing h at the prompt.
+  + Searches your entire path instead of just /usr/local/bin
+    for the snes9x executable.
+  + A few minor bugfixes.
+  + The version number has been incremented.
+
+Unless any bugs are found, or any new features are requested
+the next version will be version 1.0 and I will probably leave
+this program alone.
+
+********************************
+Changes from 0.9.20 -> 0.9.30 /
+*****************************
+
+  + Fixed bug that disabled a rom choice above
+    8 from being parsed correctly. Mainly because
+    sscanf was using %o instead of %u because
+    I didn't read the man page correctly :)
+
+********************************
+Changes from 0.9.30 -> 1.0.0  /
+*****************************
+
+  + Fixed quite a few misc. nuisance bugs.
+  + Added the reading of the SNES96_EXEC environment
+    variable. You can set this variable to whatever
+    snes9x launcher you wish to use. (Like ssnes9x, gsnes9x, or snes9x)
+  + Once snes9x is loaded csnes9x will print out the command that
+    was given to snes9x as in snes9x /roms/game.smc started.
+  + All arguments meant to be sent to csnes9x must have two slashes
+    appending them. EX: to display help type csnes9x --help instead of
+    just -h. This is so that none of the arguments being sent to snes9x
+    will conflict with ones being sent to csnes9x.
+  + Loads more file-types now. Including .zip, .smc, .fig, and .1
+    for multi-part images.
+  + csnes9x does not quit once snes9x is started. Instead it returns
+    to the menu.
+  + snes9x's various messages are no longer printed out.
+  + Better method of fork()ing is now being used.
+  + Readline is now being used for the rom selection and various
+    other messages. I found that using readline allowed more terminals
+    to work correctly with snes9x. If people would prefer me not to
+    use readline just ask, and I'll stop using it! :)
+  + This should be the final version unless someone mentions
+    a bug or has a request for a new feature to be added.
+
+******************************
+Changes from 1.0.0 -> 1.0.2 /
+****************************
+
+  + Adding ability to log snes9x errors to logfile.
+  + Reformated --help message.
+  + Changed e-mail addresses.
+  + Upped version number.
