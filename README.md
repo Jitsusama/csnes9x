@@ -1,5 +1,5 @@
-Snes9x Command Line Launcher Version 1.0.2
-==========================================
+Snes9x Command Line Launcher
+============================
 
 Introduction
 ------------
@@ -29,8 +29,3 @@ Installation
 1. make
 2. make install
 
-Notes
------
-If you appreciate the use of this software I would greatly appreciate
-it if you would find the nearest Bible and look up the following verses;
-Romans 3:23, Revelations 21:8, Romans 6:23, John 3:16.
